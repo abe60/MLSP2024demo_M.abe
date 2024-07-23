@@ -5,160 +5,91 @@ hr { clear: both; }
 </style>
 </head>
 <body>
-<h3>デモ</h3>
+<h3>Demo</h3>
 <p>
-  Normal = 強調フラグを与えずに合成した場合（従来方式）<br>
-  1, 2, 3, 4 = 各アクセント句に強調フラグを与えた場合（提案方式）<br>
-  ※「/」は，アクセント句の区切りを意味する．
+Takumi WADA, Sunao HARA and Masanobu ABE, "EXPLICIT PROSODY CONTROL TO REALIZE DISCOURSE FOCUS IN END-TO-END TEXT-TO-SPEECH"
+Graduate School of Interdisciplinary Science and Engineering in Health Systems,Okayama University, MLSP2024
+
 </p>
 <hr>
-<h3>Example 1-1 <small>(ac3A)</small></h3>
+<h3>Examples of F0&power model</h3>
 <p>
   <figure>
-    <figcaption>テストNormal: 岡山の / 天気は / 晴れです。</figcaption>
+    <figcaption>No empahsis: </figcaption>
+    <figcaption>Okayamano / teNkiha / haredesu</figcaption>
+    <audio src="3A.f0power.wav" controls></audio><br>
+  </figure>
+  <div>
+      <figure style="float: left">
+      <figcaption>Empahsis on the first phrase: </figcaption>
+      <figcaption> <font color="red"><b>Okayamano</b></font> / teNkiha / haredesu</figcaption>
+      <audio src="3A_1.f0power.wav" controls></audio><br>
+    </figure>
+    <figure style="float: left">
+      <figcaption>Empahsis on the second phrase: </figcaption>
+      <figcaption> Okayamano /  <font color="red"><b>teNkiha</b></font> / haredesu</figcaption>
+      <audio src="3A_2.f0power.wav" controls></audio><br>
+    </figure>
+    <figure style="float: left">
+      <figcaption>Empahsis on the third phrase: </figcaption>
+      <figcaption> Okayamano / teNkiha /  <font color="red"><b>haredesu</b></font></figcaption>
+      <audio src="3A_3.f0power.wav" controls></audio><br>
+    </figure>
+  </div>
+</p>
+
+<hr>
+<h3>Examples of F0 model</h3>
+<p>
+  <figure>
+    <figcaption>No empahsis: </figcaption>
+    <figcaption>Okayamano / teNkiha / haredesu</figcaption>
     <audio src="3A.f0.wav" controls></audio><br>
   </figure>
   <div>
     <figure style="float: left">
-      <figcaption>1: <b>岡山の</b> / 天気は / 晴れです。</figcaption>
-      <audio src="ac3A_1.wav" controls></audio><br>
+      <figcaption>Empahsis on the first phrase: </figcaption>
+      <figcaption> <font color="red"><b>Okayamano</b></font> / teNkiha / haredesu</figcaption>
+      <audio src="3A_1.f0.wav" controls></audio><br>
     </figure>
     <figure style="float: left">
-      <figcaption>2: 岡山の / <b>天気は</b> / 晴れです。</figcaption>
-      <audio src="ac3A_2.wav" controls></audio><br>
+      <figcaption>Empahsis on the second phrase: </figcaption>
+      <figcaption> Okayamano / <font color="red"><b>teNkiha</b></font> / haredesu</figcaption>
+      <audio src="3A_2.f0.wav" controls></audio><br>
     </figure>
     <figure style="float: left">
-      <figcaption>3: 岡山の / 天気は / <b>晴れです</b>。</figcaption>
-      <audio src="ac3A_3.wav" controls></audio><br>
+      <figcaption>Empahsis on the third phrase: </figcaption>
+      <figcaption> Okayamano / teNkiha /<font color="red"><b>haredesu</b></font> </figcaption>
+      <audio src="3A_3.f0.wav" controls></audio><br>
     </figure>
   </div>
 </p>
 
 <hr>
-<h3>Example 1-2 <small>(ac3C)</small></h3>
+<h3>Examples of power model</h3>
 <p>
   <figure>
-    <figcaption>Normal: 夕方の / 天気は / 晴れです。</figcaption>
-    <audio src="ac3C.wav" controls></audio><br>
+    <figcaption>No empahsis: </figcaption>
+    <figcaption>Okayamano / teNkiha / haredesu</figcaption>
+    <audio src="3A.power.wav" controls></audio><br>
   </figure>
   <div>
     <figure style="float: left">
-      <figcaption>1: <b>夕方の</b> / 天気は / 晴れです。</figcaption>
-      <audio src="ac3C_1.wav" controls></audio><br>
+      <figcaption>Empahsis on the first phrase: </figcaption>
+      <figcaption><font color="red"><b>Okayamano</b> </font> / teNkiha / haredesu</figcaption>
+      <audio src="3A_1.power.wav" controls></audio><br>
     </figure>
     <figure style="float: left">
-      <figcaption>2: 夕方の / <b>天気は</b> / 晴れです。</figcaption>
-      <audio src="ac3C_2.wav" controls></audio><br>
+      <figcaption>Empahsis on the second phrase: </figcaption>
+      <figcaption> Okayamano / <font color="red"><b>teNkiha</b> </font>/ haredesu</figcaption>
+      <audio src="3A_2.power.wav" controls></audio><br>
     </figure>
     <figure style="float: left">
-      <figcaption>3: 夕方の / 天気は / <b>晴れです</b>。</figcaption>
-      <audio src="ac3C_3.wav" controls></audio><br>
+      <figcaption>Empahsis on the third phrase: </figcaption>
+      <figcaption> Okayamano / teNkiha / <font color="red"><b>haredesu</b></font></figcaption>
+      <audio src="3A_3.power.wav" controls></audio><br>
     </figure>
   </div>
 </p>
-
 <hr>
-<h3>Example 1-3 <small>(ac3D)</small></h3>
-<p>
-  <figure>
-    <figcaption>Normal: 岡山の / 天気は / 雨です。</figcaption>
-    <audio src="ac3D.wav" controls></audio><br>
-  </figure>
-  <div>
-    <figure style="float: left">
-      <figcaption>1: <b>岡山の</b> / 天気は / 雨です。</figcaption>
-      <audio src="ac3D_1.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>2: 岡山の / <b>天気は</b> / 雨です。</figcaption>
-      <audio src="ac3D_2.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>3: 岡山の / 天気は / <b>雨です</b>。</figcaption>
-      <audio src="ac3D_3.wav" controls></audio><br>
-    </figure>
-  </div>
-</p>
 
-<hr>
-<h3>Example 2-1 <small>(ac4A)</small></h3>
-<p>
-  <figure>
-    <figcaption>Normal: 夕方の / 岡山の / 天気は / 晴れです。</figcaption>
-    <audio src="ac4A.wav" controls></audio><br>
-  </figure>
-  <div>
-    <figure style="float: left">
-      <figcaption>1: <b>夕方の</b> / 岡山の / 天気は / 晴れです。</figcaption>
-      <audio src="ac4A_1.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>2: 夕方の / <b>岡山の</b> / 天気は / 晴れです。</figcaption>
-      <audio src="ac4A_2.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>3: 夕方の / 岡山の / <b>天気は</b> / 晴れです。</figcaption>
-      <audio src="ac4A_3.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>4: 夕方の / 岡山の / 天気は / <b>晴れです</b>。</figcaption>
-      <audio src="ac4A_4.wav" controls></audio><br>
-    </figure>
-  </div>
-</p>
-
-<hr>
-<h3>Example 2-2 <small>(ac4E)</small></h3>
-<p>
-  <figure>
-    <figcaption>Normal: 夕方の / 岡山の / 天気は / 雨です。</figcaption>
-    <audio src="ac4E.wav" controls></audio><br>
-  </figure>
-  <div>
-    <figure style="float: left">
-      <figcaption>1: <b>夕方の</b> / 岡山の / 天気は / 雨です。</figcaption>
-      <audio src="ac4E_1.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>2: 夕方の / <b>岡山の</b> / 天気は / 雨です。</figcaption>
-      <audio src="ac4E_2.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>3: 夕方の / 岡山の / <b>天気は</b> / 雨です。</figcaption>
-      <audio src="ac4E_3.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>4: 夕方の / 岡山の / 天気は / <b>雨です</b>。</figcaption>
-      <audio src="ac4E_4.wav" controls></audio><br>
-    </figure>
-  </div>
-</p>
-
-<hr>
-<h3>Example 2-3 <small>(ac4F)</small></h3>
-<p>
-  <figure>
-    <figcaption>Normal: 夜の / 岡山の / 天気は / 晴れです。</figcaption>
-    <audio src="ac4F.wav" controls></audio><br>
-  </figure>
-  <div>
-    <figure style="float: left">
-      <figcaption>1: <b>夜の</b> / 岡山の / 天気は / 晴れです。</figcaption>
-      <audio src="ac4F_1.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>2: 夜の / <b>岡山の</b> / 天気は / 晴れです。</figcaption>
-      <audio src="ac4F_2.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>3: 夜の / 岡山の / <b>天気は</b> / 晴れです。</figcaption>
-      <audio src="ac4F_3.wav" controls></audio><br>
-    </figure>
-    <figure style="float: left">
-      <figcaption>4: 夜の / 岡山の / 天気は / <b>晴れです</b>。</figcaption>
-      <audio src="ac4F_4.wav" controls></audio><br>
-    </figure>
-  </div>
-</p>
-
-</body></html>
